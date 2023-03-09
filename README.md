@@ -1,8 +1,10 @@
 # Scrapbox2Markdown - Confluence
 
-This is a bookmarklet code.
+[日本語README.md](/README_jp.md)
 
-I customized daiiz's wonderful original bookmarklet into my preferred format for use with Confluence.
+This is a bookmarklet to convert Scrapbox page into Markdown.
+
+I customized [daiiz's](https://github.com/daiiz/sb2md) wonderful original bookmarklet into my preferred format for use with Confluence.
 
 <br>
 

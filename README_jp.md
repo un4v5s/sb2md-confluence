@@ -1,6 +1,10 @@
 # Scrapbox2Markdown - Confluence
 
-daiiz氏のオリジナルをConfluenceで自分が好む形式で使えるようにカスタマイズしました。
+[English README](/README_jp.md)
+
+daiiz氏のオリジナルのブックマークレットをConfluenceに貼り付ける際に自分が必要とする形式に変換できるようにカスタマイズしました。
+
+心より感謝申し上げます。
 
 <br>
 
@@ -13,7 +17,7 @@ daiiz氏のオリジナルをConfluenceで自分が好む形式で使えるよ�
 
 <br>
 
-## Custom version
+## カスタムバージョン（main-custom.js）
 
 さらに自分用に以下のカスタマイズを施したものです。
 - Scrapboxをリンク先とするリンクを削除
@@ -21,7 +25,8 @@ daiiz氏のオリジナルをConfluenceで自分が好む形式で使えるよ�
 
 <br>
 
-## Usage
+## 使用方法
+
 1. main.min.jsをコピーして、下記の形式でブックマークに登録
 
 ```
@@ -42,6 +47,6 @@ javascript:コピーしたコード
 
 <br>
 
-## くれじと
+## クレジット
 
 - https://github.com/daiiz/sb2md
