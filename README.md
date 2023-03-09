@@ -11,9 +11,10 @@ I customized [daiiz's](https://github.com/daiiz/sb2md) wonderful original bookma
 ## Changes from the original
 - Added `if (!lines[i].querySelector(".text")) continue;` at the beginning of the lines loop process since the original was unusable due to an error
 - Change the number of indent from 4->2
-- changed the font size to write out the maximum on the page as h1 instead of the difference from 5 (`*****`)
+- Changed the font size to write out the maximum on the page as h1 instead of the difference from 5 (`*****`)
 - Replace blank lines that are more than 2 lines in a row with a horizontal line (`---`)
 - Removed addition of `<br>`.
+- Changed to `image + link` format instead of `link image `
 
 <br>
 
