@@ -34,12 +34,12 @@
   };
 
   var markdownIndent = (level = 0) => {
-    return "  ".repeat(level);
+    return level > 0 ? "  ".repeat(level) : "";
   };
 
   var headlineMark = (level = 1, MAX_LEVEL = 5) => {
     var numMarks = MAX_LEVEL + 1 - level;
-    return "#".repeat(numMarks);
+    return numMarks > 0 ? "#".repeat(numMarks) : "";
   };
 
   var headline = (text = "", maxHeadingLevel = 5) => {
@@ -57,7 +57,7 @@
 
   var getHeadingLevel = (text = "") => {
     const mch = text.match(/class=\".*level-([0-9]{1,})\"/);
-    if(mch){
+    if (mch) {
       return +mch[1];
     }
     return null;
@@ -77,7 +77,7 @@
       // 画像対応
       var img = a.querySelector("img");
       if (img !== null) {
-        linkMarkdown = `[![Image](${img.src})](${aHref})`;
+        linkMarkdown = `![Image](${img.src})${aHref}`;
       }
       a.innerText = linkMarkdown;
     }
@@ -96,10 +96,10 @@
   var firstLine = document.querySelector(".lines");
   var pageTitle = firstLine.querySelector(".line-title .text").innerText;
   var indentUnitWidthEm = 1.5;
-  
+
   var lines = firstLine.querySelectorAll(".line");
-  var texts = [...lines].map(e => lineToText(e));
-  var maxHeadingLevel = Math.max(...texts.map(e => getHeadingLevel(e)));
+  var texts = [...lines].map((e) => lineToText(e));
+  var maxHeadingLevel = Math.max(...texts.map((e) => getHeadingLevel(e)));
   console.log("maxHeadingLevel: ", maxHeadingLevel);
 
   pageTexts = [];

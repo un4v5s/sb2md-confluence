@@ -49,3 +49,4 @@ javascript:<copied code>
 ## Credits
 
 - https://github.com/daiiz/sb2md
+- https://scrapbox.io/daiiz/Scrapbox%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92Markdown%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8BBookmarklet

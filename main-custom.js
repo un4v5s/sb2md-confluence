@@ -37,13 +37,13 @@
   };
 
   var markdownIndent = (level = 0) => {
-    return "  ".repeat(level);
+    return level > 0 ? "  ".repeat(level) : "";
   };
 
   var headlineMark = (level = 1, MAX_LEVEL = 5) => {
     // var MAX_LEVEL = 4;
     var numMarks = MAX_LEVEL + 1 - level;
-    return "#".repeat(numMarks);
+    return numMarks > 0 ? "#".repeat(numMarks) : "";
   };
 
   var headline = (text = "", maxHeadingLevel = 5) => {

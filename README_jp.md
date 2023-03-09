@@ -1,6 +1,6 @@
 # Scrapbox2Markdown - Confluence
 
-[English README](/README_jp.md)
+[English README.md](/README_jp.md)
 
 daiiz氏のオリジナルのブックマークレットをConfluenceに貼り付ける際に自分が必要とする形式に変換できるようにカスタマイズしました。
 
@@ -50,3 +50,4 @@ javascript:コピーしたコード
 ## クレジット
 
 - https://github.com/daiiz/sb2md
+- https://scrapbox.io/daiiz/Scrapbox%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92Markdown%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8BBookmarklet
